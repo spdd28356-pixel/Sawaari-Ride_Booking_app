@@ -1,0 +1,16 @@
+cat << 'EOF' > .gitignore
+# Dependencies
+node_modules/
+
+# Environments
+.env
+.env.local
+
+# Production Builds
+build/
+dist/
+
+# System Files
+.DS_Store
+Thumbs.db
+EOF
